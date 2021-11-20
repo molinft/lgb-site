@@ -34,7 +34,7 @@ export default function Home() {
 
         <div style={{ display: 'inline-block' }}>
           <div style={{ padding: 10, display: 'inline-block' }}>
-            <Link href="#">
+            <Link href="https://twitter.com/GoBrandonNFT">
               <a><Image
                 src="/images/twitter.png"
                 height={50}
