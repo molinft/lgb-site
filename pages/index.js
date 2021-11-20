@@ -1,15 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-
-const YourComponent = () => (
-  <Image
-    src="/images/profile.jpg" // Route of the image file
-    height={144} // Desired size with correct aspect ratio
-    width={144} // Desired size with correct aspect ratio
-    alt="Your Name"
-  />
-)
+import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
   return (
@@ -32,6 +24,7 @@ export default function Home() {
           src="/images/logo.png"
           height={250}
           width={250}
+          className={utilStyles.roundedImage}
         />
 
         <p className="description">
@@ -71,6 +64,10 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+        }
+
+        .img {
+          border-radius: 10%;
         }
 
         main {
