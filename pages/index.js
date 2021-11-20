@@ -35,7 +35,7 @@ export default function Home() {
         <div style={{ display: 'inline-block' }}>
           <div style={{ padding: 10, display: 'inline-block' }}>
             <Link href="https://twitter.com/GoBrandonNFT">
-              <a><Image
+              <a target="_blank"><Image
                 src="/images/twitter.png"
                 height={50}
                 width={50}
@@ -45,7 +45,7 @@ export default function Home() {
 
           <div style={{ padding: 10, display: 'inline-block' }}>
             <Link href="https://discord.gg/S6F4cEurED">
-              <a><Image
+              <a target="_blank"><Image
                 src="/images/discord.png"
                 height={50}
                 width={50}
