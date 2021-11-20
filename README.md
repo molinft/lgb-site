@@ -17,6 +17,18 @@ sudo apt install -y nodejs
 
 ## Running
 
+Setup the URL:
+
+```
+IMAGE_LOADER_PATH=http://localhost:3000
+```
+
 ```
 npm run dev
+```
+
+## Sources
+
+```
+https://docs.microsoft.com/en-us/azure/static-web-apps/publish-devops?wt.mc_id=azurestaticwebapps_inline_inproduct_general
 ```
