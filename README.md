@@ -19,3 +19,5 @@ sudo apt install -y nodejs
 npm i
 npm run dev
 ```
+
+Run `npm run list` before commiting. Add ESLint addons for a better experience.

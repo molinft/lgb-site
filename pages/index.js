@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Let's Go Brandon NFT</title>
+        <title>Let&apos;s Go Brandon NFT</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Let's Go Brandon NFTs
+          Let&apos;s Go Brandon NFTs
         </h1>
 
         <p className="description">
@@ -25,6 +25,7 @@ export default function Home() {
           height={250}
           width={250}
           className={utilStyles.roundedImage}
+          alt=""
         />
 
         <p className="description">
@@ -39,6 +40,7 @@ export default function Home() {
                 src="/images/twitter.png"
                 height={50}
                 width={50}
+                alt=""         
               /></a>
             </Link>
           </div>
@@ -49,6 +51,7 @@ export default function Home() {
                 src="/images/discord.png"
                 height={50}
                 width={50}
+                alt="" 
               /></a>
             </Link>
           </div>
