@@ -15,9 +15,11 @@ sudo apt install -y nodejs
 
 ## Running
 
+Download the dependencies and start the site
+
 ```
 npm i
 npm run dev
 ```
 
-Run `npm run list` before commiting. Add ESLint addons for a better experience.
+Run `npm run lint` before commiting. Add ESLint addons for a better experience.
