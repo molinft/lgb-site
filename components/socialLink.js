@@ -4,7 +4,7 @@ import styles from './socialLink.module.css'
 
 export default function SocialLink({ href, imgSrc }) {
     return (
-        <div className={styles.socialLink}>
+        <span className={styles.socialLink}>
             <Link href={href}>
                 <a target="_blank"><Image
                     src={imgSrc}
@@ -13,6 +13,6 @@ export default function SocialLink({ href, imgSrc }) {
                     alt=""
                 /></a>
             </Link>
-        </div>
+        </span>
     )
 }
