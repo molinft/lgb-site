@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/index.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Image from 'next/image'
-import Link from 'next/link'
+import SocialLink from '../components/socialLink'
 
 export default function Home() {
   return (
@@ -34,27 +34,14 @@ export default function Home() {
       </p>
 
       <div style={{ display: 'inline-block' }}>
-        <div style={{ padding: 10, display: 'inline-block' }}>
-          <Link href="https://twitter.com/GoBrandonNFT">
-            <a target="_blank"><Image
-              src="/images/twitter.png"
-              height={50}
-              width={50}
-              alt=""
-            /></a>
-          </Link>
-        </div>
-
-        <div style={{ padding: 10, display: 'inline-block' }}>
-          <Link href="https://discord.gg/S6F4cEurED">
-            <a target="_blank"><Image
-              src="/images/discord.png"
-              height={50}
-              width={50}
-              alt=""
-            /></a>
-          </Link>
-        </div>
+        <SocialLink
+          href="https://twitter.com/GoBrandonNFT"
+          imgSrc="/images/twitter.png"
+        />
+        <SocialLink
+          href="https://discord.gg/S6F4cEurED"
+          imgSrc="/images/discord.png"
+        />
       </div>
 
     </Layout>
