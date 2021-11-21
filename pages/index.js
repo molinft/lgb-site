@@ -33,7 +33,7 @@ export default function Home() {
         Join the community and contribute to our project:
       </p>
 
-      <div style={{ display: 'inline-block' }}>
+      <div>
         <SocialLink
           href="https://twitter.com/GoBrandonNFT"
           imgSrc="/images/twitter.png"
