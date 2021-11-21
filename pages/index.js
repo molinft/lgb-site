@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import styles from '../styles/index.module.css'
+import styles from './index.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Image from 'next/image'
 import SocialLink from '../components/socialLink'
