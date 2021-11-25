@@ -39,6 +39,7 @@ export default class Home extends React.Component {
           width={250}
           className={utilStyles.roundedImage}
           alt=""
+          priority="true"
         // onMouseEnter={this.handleClick}
         />
 
