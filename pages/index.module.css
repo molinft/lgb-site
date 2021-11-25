@@ -37,3 +37,31 @@
 .description {
     text-align: center;
 }
+
+/* .trump {
+    animation: MoveUpDown 0.3s linear infinite, run 5s linear;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(50px); 
+    }
+    50% {
+      transform: translateY(100px);
+    }
+  }
+
+  @keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  } */
