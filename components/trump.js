@@ -130,19 +130,19 @@ export default function Trump() {
     }, [state]);
 
     const TrumpDiv = randomTrump();
+    const divClass = state.firstTime ? styles.hidden : styles.visible;
 
-    if (state.trigger === 0) {
-        return null
-    } else {
-        return (
-            <TrumpDiv>
+    return (
+        <div className={divClass}>
+            <TrumpDiv show="false">
                 <Image
                     src="/images/trump.png"
                     height={120}
                     width={120}
                     alt=""
+                    priority="true"
                 />
             </TrumpDiv>
-        )
-    };
+        </div>
+    )
 }

@@ -20,4 +20,14 @@
     100% {
       left: -120px;
     }
-  }  
+  }
+
+.hidden {
+  position: absolute;
+  visibility: hidden;
+}
+
+.visible {
+  position: absolute;
+  visibility: visible;
+}
