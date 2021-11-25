@@ -115,9 +115,9 @@ export default function Trump() {
     );
 
     useEffect(() => {
-        let time = Math.floor(Math.random() * 15000) + 10000;
+        let time = Math.floor(Math.random() * 13000) + 9000;
         if (state.firstTime === false) {
-            time = Math.floor(Math.random() * 30000) + 15000;
+            time = Math.floor(Math.random() * 25000) + 15000;
         }
         setTimeout(() => {
             setState(
@@ -134,7 +134,7 @@ export default function Trump() {
 
     return (
         <div className={divClass}>
-            <TrumpDiv show="false">
+            <TrumpDiv>
                 <Image
                     src="/images/trump.png"
                     height={120}
