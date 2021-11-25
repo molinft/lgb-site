@@ -14,10 +14,10 @@ function leftTrump() {
         0% {
             left: -120px;
         }
-        10% {
+        5% {
             left: -45px;                
         }
-        90% {
+        95% {
             left: -45px;                
         } 
         100% {
@@ -42,10 +42,10 @@ function rightTrump() {
         0% {
             right: -120px;
         }
-        10% {
+        5% {
             right: -45px;                
         }
-        90% {
+        95% {
             right: -45px;                
         } 
         100% {
